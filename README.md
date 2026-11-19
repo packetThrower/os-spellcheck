@@ -77,7 +77,7 @@ That's the entire surface — one struct, two methods. The exact contracts
   backends convert them to the UTF-8 byte ranges this crate returns, so callers
   work in plain byte offsets throughout.
 
-## Using it with [`zorite-editor`](../zorite-editor)
+## Using it with [`zorite-editor`](https://github.com/packetThrower/zorite-editor)
 
 `zorite-editor` consumes exactly this shape — byte-range diagnostics plus a lazy
 suggestion provider:
